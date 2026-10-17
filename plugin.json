@@ -1,0 +1,141 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "openagent-theme-rhea",
+  "version": "1.0.0",
+  "description": "Rhea: rhea / neutral / neutral / neutral",
+  "license": "MIT",
+  "repository": "https://github.com/BANG404/openagent-theme-rhea",
+  "homepage": "https://ui.shadcn.com/create",
+  "keywords": [
+    "theme",
+    "shadcn",
+    "rhea",
+    "neutral",
+    "neutral"
+  ],
+  "extensions": {
+    "openagent": {
+      "type": "theme",
+      "compatibility": {
+        "plugin_protocol": {
+          "min": 1,
+          "max": 1
+        },
+        "features": [
+          "theme-v1"
+        ]
+      },
+      "theme": {
+        "version": 1,
+        "tokens": {
+          "--font-sans": "'Inter Variable', sans-serif",
+          "--app-font-family": "var(--font-sans)",
+          "--font-heading": "var(--font-sans)",
+          "--radius": "0.875rem",
+          "--app-font-size": "12px",
+          "--settings-control-height": "28px",
+          "--control-height": "28px",
+          "--control-padding-inline": "10px",
+          "--menu-item-min-height": "24px",
+          "--menu-item-font-size": "11px",
+          "--menu-item-padding-inline": "10px",
+          "--settings-card-row-padding-block": "10px",
+          "--plugin-card-padding": "10px",
+          "--settings-content-padding": "20px"
+        },
+        "light": {
+          "--background": "oklch(1 0 0)",
+          "--foreground": "oklch(0.145 0 0)",
+          "--card": "oklch(1 0 0)",
+          "--card-foreground": "oklch(0.145 0 0)",
+          "--popover": "oklch(1 0 0)",
+          "--popover-foreground": "oklch(0.145 0 0)",
+          "--primary": "oklch(0.205 0 0)",
+          "--primary-foreground": "oklch(0.985 0 0)",
+          "--secondary": "oklch(0.97 0 0)",
+          "--secondary-foreground": "oklch(0.205 0 0)",
+          "--muted": "oklch(0.97 0 0)",
+          "--muted-foreground": "oklch(0.556 0 0)",
+          "--accent": "oklch(0.97 0 0)",
+          "--accent-foreground": "oklch(0.205 0 0)",
+          "--destructive": "oklch(0.577 0.245 27.325)",
+          "--border": "oklch(0.922 0 0)",
+          "--input": "oklch(0.922 0 0)",
+          "--ring": "oklch(0.708 0 0)",
+          "--chart-1": "oklch(0.87 0 0)",
+          "--chart-2": "oklch(0.556 0 0)",
+          "--chart-3": "oklch(0.439 0 0)",
+          "--chart-4": "oklch(0.371 0 0)",
+          "--chart-5": "oklch(0.269 0 0)",
+          "--sidebar": "oklch(0.985 0 0)",
+          "--sidebar-foreground": "oklch(0.145 0 0)",
+          "--sidebar-primary": "oklch(0.205 0 0)",
+          "--sidebar-primary-foreground": "oklch(0.985 0 0)",
+          "--sidebar-accent": "oklch(0.97 0 0)",
+          "--sidebar-accent-foreground": "oklch(0.205 0 0)",
+          "--sidebar-border": "oklch(0.922 0 0)",
+          "--sidebar-ring": "oklch(0.708 0 0)",
+          "--menu-surface": "var(--popover)",
+          "--menu-foreground": "var(--popover-foreground)",
+          "--menu-accent": "var(--accent)",
+          "--menu-accent-foreground": "var(--menu-foreground)"
+        },
+        "dark": {
+          "--background": "oklch(0.145 0 0)",
+          "--foreground": "oklch(0.985 0 0)",
+          "--card": "oklch(0.205 0 0)",
+          "--card-foreground": "oklch(0.985 0 0)",
+          "--popover": "oklch(0.205 0 0)",
+          "--popover-foreground": "oklch(0.985 0 0)",
+          "--primary": "oklch(0.922 0 0)",
+          "--primary-foreground": "oklch(0.205 0 0)",
+          "--secondary": "oklch(0.269 0 0)",
+          "--secondary-foreground": "oklch(0.985 0 0)",
+          "--muted": "oklch(0.269 0 0)",
+          "--muted-foreground": "oklch(0.708 0 0)",
+          "--accent": "oklch(0.269 0 0)",
+          "--accent-foreground": "oklch(0.985 0 0)",
+          "--destructive": "oklch(0.704 0.191 22.216)",
+          "--border": "oklch(1 0 0 / 10%)",
+          "--input": "oklch(1 0 0 / 15%)",
+          "--ring": "oklch(0.556 0 0)",
+          "--chart-1": "oklch(0.87 0 0)",
+          "--chart-2": "oklch(0.556 0 0)",
+          "--chart-3": "oklch(0.439 0 0)",
+          "--chart-4": "oklch(0.371 0 0)",
+          "--chart-5": "oklch(0.269 0 0)",
+          "--sidebar": "oklch(0.205 0 0)",
+          "--sidebar-foreground": "oklch(0.985 0 0)",
+          "--sidebar-primary": "oklch(0.488 0.243 264.376)",
+          "--sidebar-primary-foreground": "oklch(0.985 0 0)",
+          "--sidebar-accent": "oklch(0.269 0 0)",
+          "--sidebar-accent-foreground": "oklch(0.985 0 0)",
+          "--sidebar-border": "oklch(1 0 0 / 10%)",
+          "--sidebar-ring": "oklch(0.556 0 0)",
+          "--menu-surface": "var(--popover)",
+          "--menu-foreground": "var(--popover-foreground)",
+          "--menu-accent": "var(--accent)",
+          "--menu-accent-foreground": "var(--menu-foreground)"
+        }
+      },
+      "i18n": {
+        "supported_locales": [
+          "en",
+          "zh-CN"
+        ],
+        "default_locale": "en",
+        "translations": {
+          "en": {
+            "display_name": "Rhea",
+            "description": "Rhea: rhea / neutral / neutral / neutral"
+          },
+          "zh-CN": {
+            "display_name": "Rhea",
+            "description": "Rhea 主题：rhea / neutral / neutral / neutral"
+          }
+        }
+      },
+      "category": "design"
+    }
+  }
+}
