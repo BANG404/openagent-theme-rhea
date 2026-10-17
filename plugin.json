@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "openagent-theme-rhea",
-  "version": "1.1.0",
-  "description": "Rhea: rhea / neutral / neutral / neutral",
+  "version": "1.1.1",
+  "description": "A neutral gray theme with 12px text, large rounded controls, and dense spacing; supports light and dark modes.",
   "license": "MIT",
   "repository": "https://github.com/BANG404/openagent-theme-rhea",
   "homepage": "https://ui.shadcn.com/create",
@@ -135,12 +135,12 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "Rhea",
-            "description": "Rhea: rhea / neutral / neutral / neutral"
+            "display_name": "Rhea Dense Rounded Theme",
+            "description": "A neutral gray theme with 12px text, large rounded controls, and dense spacing; supports light and dark modes."
           },
           "zh": {
-            "display_name": "Rhea",
-            "description": "Rhea 主题：rhea / neutral / neutral / neutral"
+            "display_name": "Rhea 紧凑圆角主题",
+            "description": "中性灰阶配色，搭配 12px 字号、大圆角控件和紧凑间距，支持浅色与深色模式。"
           }
         }
       },
