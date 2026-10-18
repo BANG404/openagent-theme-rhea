@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "openagent-theme-rhea",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A neutral gray theme with 12px text, large rounded controls, and dense spacing; supports light and dark modes.",
   "license": "MIT",
   "repository": "https://github.com/BANG404/openagent-theme-rhea",
@@ -29,6 +29,8 @@
       "theme": {
         "version": 1,
         "tokens": {
+          "--sidebar-selected": "var(--sidebar-accent)",
+          "--sidebar-selected-foreground": "var(--sidebar-accent-foreground)",
           "--font-sans": "'Inter Variable', sans-serif",
           "--app-font-family": "var(--font-sans)",
           "--font-heading": "var(--font-sans)",
