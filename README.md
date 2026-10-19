@@ -5,6 +5,9 @@ A neutral gray theme with 12px text, large rounded controls, and dense spacing; 
 Install this directory or its release archive in OpenAgent Plugins, then select Rhea Dense Rounded Theme in General → Appearance. Light/dark and system appearance are supported. User appearance overrides apply last.
 
 Sidebar hover and selection intentionally share the same colors in both modes.
+Their package-owned fills use OKLCH lightness 0.90 in light mode and 0.36 in
+dark mode, matching the collection's interaction contrast while retaining the
+neutral palette. OpenAgent's Style contrast setting scales these fills last.
 The independent `--sidebar-selected` and `--sidebar-selected-foreground` tokens
 reference `--sidebar-accent` and `--sidebar-accent-foreground`, respectively.
 
